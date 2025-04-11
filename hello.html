@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <title>爱你的每一天</title>
+    <style>
+        /* 自定义动画 */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-r from-pink-100 via-pink-200 to-pink-300 min-h-screen flex flex-col items-center justify-center text-pink-800">
+    <!-- 标题 -->
+    <h1 class="text-5xl font-bold mb-8 animate-fadeIn">亲爱的冉灵洁，我爱你💕</h1>
+    <!-- 内容卡片 -->
+    <div class="bg-white p-8 rounded-lg shadow-lg w-3/4 md:w-1/2 animate-fadeIn delay-150">
+        <p class="text-lg mb-4">从遇见你的那一刻起，我的世界就变得五彩斑斓。你的笑容如同春日里的阳光，温暖着我的心房；你的眼神仿佛深邃的湖水，让我沉醉其中，无法自拔。</p>
+        <p class="text-lg mb-4">每一次和你在一起的时光，都如同珍珠般珍贵，我会小心翼翼地将它们收藏在心底。那些一起走过的街道、一起看过的电影、一起分享的美食，都成为了我生命中最美好的回忆。</p>
+        <p class="text-lg mb-6">未来的日子里，我想一直陪伴在你身边，无论是风雨还是晴空，我都会紧紧握住你的手，与你一同面对生活的挑战，分享生活的喜悦。我愿意用我的一生去守护你，让你永远幸福快乐。</p>
+        <div class="flex justify-center">
+            <i class="fa-solid fa-heart text-5xl text-red-500 animate-float"></i>
+        </div>
+    </div>
+    <!-- 底部版权信息 -->
+    <footer class="mt-8 text-sm animate-fadeIn delay-300">
+        <p>&copy; 2025 张艺洲  版权所有</p>
+    </footer>
+</body>
+
+</html>    
